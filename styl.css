@@ -61,6 +61,10 @@ header a {
     margin-top: 100px;
     border-radius: 30px;
     filter: drop-shadow(0 0 100px rgb(7, 7, 7));
+    opacity: 0.5;
+}
+.secondpic:hover {
+    cpacity: 1.0;
 }
 .title {
     text-align: center;
