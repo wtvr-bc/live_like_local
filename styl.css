@@ -30,10 +30,12 @@ header a {
 @media (min-width:320px) and (max-width: 425px) {
     header {
         height: 100px;
+        
 
     }
     header li {
         font-size: 12px;
+        margin: auto;
     }
     header li:hover {
         font-size: 17px;
@@ -93,7 +95,9 @@ header a {
     .image {
         position: relative;
     }
-
+    .sentence {
+        margin: auto;
+    }
     .no1 {
         font-size: 12px;
         top: 15px;
@@ -110,7 +114,8 @@ header a {
         width: 80%;
     }
     .no2 {
-        font-size: 12px;
+        font-size: 8px;
+        font-family: 'Times New Roman', Times, serif;
         letter-spacing: none;
         line-height: 38px;
         position: absolute;
@@ -124,13 +129,14 @@ footer {
     text-align: center;
     background: rgb(30, 46, 53);
     color: white;
-    height: 200px;
-    line-height: 200px;
+    height: 150px;
+    line-height: 150px;
 }
-@media (max-width: 425px) {
+@media (min-width:320px) and (max-width: 425px) {
     footer {
         height: 100px;
         line-height: 100px;
+        margin-top: 650px;
     }
 
 }
