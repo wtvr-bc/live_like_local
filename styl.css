@@ -1,3 +1,4 @@
+
 body {
     margin: auto;
     padding: auto;
@@ -50,7 +51,14 @@ header a {
 .firstpic {
     height: 1000px;
     width: 100%;
-    
+}
+.secondpic {
+    width: 40%;
+    float: right;
+    margin-right: 130px;
+    margin-top: 100px;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 100px rgb(7, 7, 7));
 }
 .title {
     text-align: center;
@@ -73,18 +81,19 @@ header a {
 
 .title1 {
     margin-top: 300px;
-    margin-bottom: 400px;
+    margin-bottom: 350px;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 50px;
     letter-spacing: 7px;
 }
 .no2 {
     letter-spacing: 5px;
-    text-align: center;
     font-size: 20px;
     font-family: fantasy;
     position: absolute;
-    line-height: 100px;
+    margin-left: 100px;
+    line-height: 80px;
+    width: 60%;
 
 
 }
@@ -121,7 +130,6 @@ header a {
         letter-spacing: none;
         line-height: 38px;
         position: absolute;
-
     }
 }
 
@@ -142,4 +150,3 @@ footer {
     }
 
 }
-
