@@ -2,7 +2,7 @@ body {
     margin: auto;
     padding: auto;
     background:rgb(226, 225, 225);
-/*     width: 100%; */
+    width: 100%;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
     background: rgb(30, 46, 53);
     height: 130px;
     text-align: center;
-/*     width: 100%; */
+    width: 100%;
 }
 header li {
     display: inline-block;
@@ -27,7 +27,7 @@ header a {
     color: white;
 }
 
-/* @media (min-width:320px) and (max-width: 425px) {
+@media (min-width:320px) and (max-width: 425px) {
     header {
         height: 100px;
 
@@ -38,7 +38,7 @@ header a {
     header li:hover {
         font-size: 17px;
     }
-} */
+}
 
 
 .image {
@@ -86,14 +86,14 @@ header a {
 
 }
 
-/* @media (min-width:320px) and (max-width: 425px) {
+@media (min-width:320px) and (max-width: 425px) {
     .no1 {
         font-size: 12px;
         letter-spacing: none;
         line-height: 38px;
     }
 }
- */
+
 
 footer {
     margin-top: 1300px;
@@ -103,12 +103,12 @@ footer {
     height: 200px;
     line-height: 200px;
 }
-/* @media (max-width: 425px) {
+@media (max-width: 425px) {
     footer {
         height: 100px;
         line-height: 100px;
     }
 
-} */
+}
 
 
