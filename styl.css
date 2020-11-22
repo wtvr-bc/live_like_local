@@ -108,6 +108,11 @@ header a {
     .sentence {
         margin: auto;
     }
+    .secondpic {
+        margin-right: 30px;
+        margin-top: 230px;
+        width: 60%;
+    }
     .no1 {
         font-size: 12px;
         font-family: 'Times New Roman', Times, serif;
@@ -130,6 +135,7 @@ header a {
         letter-spacing: none;
         line-height: 38px;
         position: absolute;
+        margin-left: 30px;
     }
 }
 
