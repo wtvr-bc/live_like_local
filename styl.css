@@ -35,8 +35,8 @@ header a {
     }
     header li {
         font-size: 12px;
-        font-family: 'Times New Roman', Times, serif;
         margin: auto;
+        font-family: 'Times New Roman', Times, serif;
     }
     header li:hover {
         font-size: 17px;
@@ -116,7 +116,7 @@ header a {
         width: 80%;
     }
     .no2 {
-        font-size: 8px;
+        font-size: 12px;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: none;
         line-height: 38px;
@@ -142,3 +142,4 @@ footer {
     }
 
 }
+
