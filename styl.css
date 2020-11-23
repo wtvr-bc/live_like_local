@@ -61,10 +61,10 @@ header a {
     margin-top: 100px;
     border-radius: 30px;
     filter: drop-shadow(0 0 100px rgb(7, 7, 7));
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .secondpic:hover {
-    cpacity: 1.0;
+    opacity: 1.0;
 }
 .title {
     text-align: center;
@@ -118,6 +118,10 @@ header a {
         margin-right: 30px;
         margin-top: 250px;
         width: 60%;
+        opacity: 1.0;
+    }
+    .secondpic:hover {
+        opacity: 1.0;
     }
     .no1 {
         font-size: 12px;
