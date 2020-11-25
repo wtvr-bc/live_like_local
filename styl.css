@@ -100,8 +100,42 @@ header a {
     margin-left: 100px;
     line-height: 80px;
     width: 60%;
+}
+.destinations {
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 40px;
+    position: absolute; 
+    top: 2800px;
+    left: 360px;
+}
+.map {
+    position: absolute; 
+    top: 2900px;
+    left: 450px;
+}
+.location {
+    position: absolute; 
+    top: 2900px;
+    left: 880px;
+}
+.fa {
+    margin-top: 120px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+.fa-map-marker:hover {
+    color: rgb(247, 52, 52);
+}
+.fa-location-arrow:hover {
+    color: rgb(53, 53, 243);
+}
 
-
+.go {
+    font-size: 24px;
 }
 
 @media (min-width:320px) and (max-width: 425px) {
@@ -147,11 +181,39 @@ header a {
         position: absolute;
         margin-left: 30px;
     }
+    .destinations {
+        letter-spacing: 0px;
+        top: 1550px;
+        left: 80px;
+        font-size: 16px;
+    }
+    .map {
+        top: 1500px;
+        left: 70px;
+        font-size: 20px;
+    }
+    .location {
+        top: 1500px;
+        left: 210px;
+        
+    }
+    .fa {
+        font-size: 30px;
+    }
+    .fa-map-marker {
+        color: rgb(240, 168, 168);
+    }
+    .fa-location-arrow {
+        color: rgb(159, 159, 247);
+    }
+    .go {
+        font-size: 18px;
+    }
 }
 
 
 footer {
-    margin-top: 1300px;
+    margin-top: 1900px;
     text-align: center;
     background: rgb(30, 46, 53);
     color: white;
@@ -162,7 +224,7 @@ footer {
     footer {
         height: 100px;
         line-height: 100px;
-        margin-top: 650px;
+        margin-top: 950px;
     }
 
 }
