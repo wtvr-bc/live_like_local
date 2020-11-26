@@ -7,6 +7,7 @@ body {
 
 header {
     margin-top: -20px;
+    /* margin-bottom: 80px; */
     background: rgb(30, 46, 53);
     height: 130px;
     text-align: center;
@@ -33,8 +34,7 @@ header a {
 @media (min-width:320px) and (max-width: 736px) {
     header {
         height: 100px;
-        
-
+        margin-bottom: -60px;
     }
     header li {
         font-size: 12px;
@@ -46,185 +46,226 @@ header a {
     }
 }
 
-
-.image {
-    position: relative;
-}
-.firstpic {
-    height: 1000px;
-    width: 100%;
-}
-.secondpic {
-    width: 40%;
-    float: right;
-    margin-right: 130px;
-    margin-top: 100px;
-    border-radius: 30px;
-    filter: drop-shadow(0 0 100px rgb(7, 7, 7));
-    opacity: 0.6;
-}
-.secondpic:hover {
-    opacity: 1.0;
+.intro {
+    text-align: center;
+    margin-top: 200px;
 }
 .title {
+    font-family: fantasy, sans-serif;
+    font-size: 48px;
+}
+.sub {
+    margin-top: 100px;
+    font-family: fantasy, sans-serif;
+}
+.options1 {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    margin-top: 370px;
+    margin-bottom: 300px;
+}
+.options2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 300px;
+}
+.options3 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 300px;
+}
+.options4 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 60px;
+}
+.content {
+    width: 100%;
+    padding-top: 200px;
+}
+.options1 li {
+    list-style: none; 
+}
+.options2 li {
+    list-style: none; 
+}
+.options3 li {
+    list-style: none; 
+}
+.options4 li {
+    list-style: none; 
 }
 
-.sentence {
-    text-align: center;
-} 
-
-.no1 {
-    text-align: center;
-    font-size: 30px;
-    font-family: fantasy;
-    letter-spacing: 5px;
-    position: absolute;
-    top: 50px;
-    left: 100px;
-    line-height: 90px;
+.a {
+    width: 350px;
+    height: 250px;
+    border-radius: 50%;
+    opacity: 0.8;
 }
-
-.title1 {
-    margin-top: 300px;
-    margin-bottom: 350px;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 50px;
-    letter-spacing: 7px;
+.a:hover {
+    border-radius: 10px;
+    opacity: 1.0;
 }
-.no2 {
-    letter-spacing: 5px;
-    font-size: 20px;
-    font-family: fantasy;
-    position: absolute;
+.usa {
     margin-left: 100px;
-    line-height: 80px;
-    width: 60%;
 }
-.destinations {
+.uk {
+    margin-right: 100px;
+}
+.spain {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.ice {
+    margin-left: 100px;
+}
+.italy {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.france {
+    margin-right: 100px;
+}
+.oranda {
+    margin-left: 100px;
+}
+.suis {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.aust {
+    margin-right: 100px;
+}
+.german {
+    margin-left: 100px;
+}
+.belgium {
+    margin-right: 90px;
+    margin-left: 90px;
+}
+.hk {
+    margin-right: 100px;
+}
+.messages {
     text-align: center;
-    letter-spacing: 6px;
-    font-size: 40px;
-    position: absolute; 
-    top: 2800px;
-    left: 360px;
-}
-.map {
-    position: absolute; 
-    top: 2900px;
-    left: 450px;
-}
-.location {
-    position: absolute; 
-    top: 2900px;
-    left: 880px;
-}
-.fa {
-    margin-top: 120px;
-    margin-right: 40px;
-    margin-left: 40px;
-    text-decoration: none;
-    color: black;
-    font-size: 50px;
-}
-.fa-map-marker:hover {
-    color: rgb(247, 52, 52);
-}
-.fa-location-arrow:hover {
-    color: rgb(53, 53, 243);
-}
-
-.go {
-    font-size: 24px;
+    font-family: fantasy, sans-serif;
+    margin-top: 400px;
+    margin-bottom: 350px;
 }
 
 @media (min-width:320px) and (max-width: 736px) {
-    .firstpic {
-        height: 550px;
+    .intro {
+        text-align: center;
+        margin-top: 0px;
     }
-    .image {
-        position: relative;
-    }
-    .sentence {
-        margin: auto;
-    }
-    .secondpic {
-        margin-right: 30px;
-        margin-top: 250px;
-        width: 60%;
-        opacity: 1.0;
-    }
-    .secondpic:hover {
-        opacity: 1.0;
-    }
-    .no1 {
-        font-size: 12px;
-        font-family: 'Times New Roman', Times, serif;
-        top: 15px;
-        left: 20px;
-        letter-spacing: none;
-        line-height: 25px;
-        position: absolute;
-    }
-    .title1 {
-        font-size: 22px;
-        letter-spacing: 5px;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        width: 80%;
-    }
-    .no2 {
-        font-size: 12px;
-        font-family: 'Times New Roman', Times, serif;
-        letter-spacing: none;
-        line-height: 38px;
-        position: absolute;
-        margin-left: 30px;
-    }
-    .destinations {
-        letter-spacing: 0px;
-        top: 1550px;
-        left: 90px;
+    .title {
+        font-family: fantasy, sans-serif;
         font-size: 16px;
     }
-    .map {
-        top: 1500px;
-        left: 70px;
-        font-size: 20px;
+    .sub {
+        margin-top: 50px;
+        font-family: fantasy, sans-serif;
+        font-size: 16px;
     }
-    .location {
-        top: 1500px;
-        left: 250px;
+    .a {
+        width: 40%;
+        height: 140px;
+        border-radius: 1.0;
+        opacity: 1.0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .usa {
+        float: left;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    .uk {
+        margin-right: none;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .spain {
+        margin-left: none;
+        margin-right: 30px;
+        margin-top: -20px;
+        float: right;
         
     }
-    .fa {
-        font-size: 30px;
+    .ice {
+        margin-right: 30px;
+        float: right;
+        margin-top: -20px;
     }
-    .fa-map-marker {
-        color: rgb(240, 168, 168);
+    .italy {
+        float: left;
+        margin-left: 30px;
+        margin-top: -20px;
     }
-    .fa-location-arrow {
-        color: rgb(159, 159, 247);
+    .france {
+        margin-right: 30px;
+        float: right;
+        margin-top: -20px;
     }
-    .go {
-        font-size: 18px;
+    .oranda {
+        float: left;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .suis {
+        margin-right: 30px;
+        float: right;
+        margin-top: -20px;
+    }
+    .aust {
+        float: left;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .german {
+        margin-right: 30px;
+        float: right;
+        margin-top: -20px;
+    }
+    .belgium {
+        float: left;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .hk {
+        margin-right: 30px;
+        margin-top: -20px;
+        float: right;
+    }
+    .options1 {
+        margin-bottom: -50px;
+        margin-top: 50px;
+    }
+    .options2 {
+        margin-bottom: -50px;
+        padding-top: 50px;
+    }
+    .options3 {
+       margin-bottom: -50px;
+       padding-top: 50px;
+    }
+    .messages {
+        margin-top: 150px;
+        margin-bottom: 150px;
     }
 }
 
-
-footer {
-    margin-top: 1900px;
+footer{
     text-align: center;
     background: rgb(30, 46, 53);
     color: white;
     height: 150px;
     line-height: 150px;
-}
-@media (min-width:320px) and (max-width: 736px) {
-    footer {
-        height: 100px;
-        line-height: 100px;
-        margin-top: 950px;
-    }
-
 }
