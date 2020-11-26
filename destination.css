@@ -154,6 +154,8 @@ header a {
 }
 .messages {
     text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
     font-family: fantasy, sans-serif;
     margin-top: 400px;
     margin-bottom: 350px;
@@ -259,6 +261,8 @@ header a {
     .messages {
         margin-top: 150px;
         margin-bottom: 150px;
+        font-size: 18px;
+        letter-spacing: 2px;
     }
 }
 
