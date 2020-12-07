@@ -1,0 +1,279 @@
+body {
+    margin: auto;
+    padding: auto;
+    background:rgb(226, 225, 225);
+    width: 100%;
+}
+
+header {
+    margin-top: -20px;
+    background: rgb(42, 59, 70);
+    height: 130px;
+    text-align: center;
+    width: 100%;
+}
+header li {
+    display: inline-block;
+    width: 20%;
+    font-family: fantasy, sans-serif;
+    padding-top: 70px;
+    font-size: 20px;
+}
+header li:hover {
+    padding-top: 30px;
+    font-size: 30px;
+}
+header li:last-child {
+    margin-right: 35px;
+}
+header a {
+    color: white;
+}
+
+@media (min-width:320px) and (max-width: 425px) {
+    header {
+        height: 100px;
+    }
+    header li {
+        font-size: 12px;
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header li:hover {
+        font-size: 17px;
+    }
+}
+
+.img
+.about1 {
+    background-image: url("img/Iceland/IMG_7994.JPG");
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+}
+.about1 article {
+    font-size: 30px;
+    color: white;
+    opacity: 0.4;
+    line-height: 220%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+.about1 article:hover {
+    opacity: 0.9;
+}
+.pagetitle {   
+    height: 200px;
+    width: 100%;
+}
+.title {
+    font-size: 70px;
+    text-align: center;
+    line-height: 200px;
+    letter-spacing: 5px;
+    font-family: serif;
+    opacity: 0.5;
+}
+.intro {
+    margin-top: 100px;
+    background: rgb(211, 211, 208);
+    margin: 250px;
+}
+.intromy {
+    font-size: 18px;
+    font-family: fantasy;
+    margin-left: 50px;
+    margin-top: -350px;
+    line-height: 230%;
+}
+.intromy1 {
+    font-size: 18px;
+    font-family: fantasy;
+    margin-left: 580px;
+    margin-top: -500px;
+    padding-bottom: 50px;
+    line-height: 40px;
+}
+.introimg {
+    width: 35%;
+    height: 400px;
+    border-radius: 1%;
+    float: right;
+    margin-top: -40px;
+    margin-right: 40px;
+}
+.bcn {
+    width: 50%;
+    height: 400px;
+    border-radius: 5%;
+    margin-top: -200px;
+    margin-bottom: -50px;
+    margin-left: 120px;
+}
+.uk {
+    width: 40%;
+    height: 300px;
+    border-radius: 30%;
+    margin-left: -140px;
+    margin-top: 20px;
+}
+.fav {
+    color: rgb(129, 129, 102);
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.ice {
+    margin-left: 750px;
+}
+.total {
+    text-align: center;
+}
+.summaries {
+    display: flex;
+}
+.summary {
+    width: 20%;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.box {
+    border: 1px solid rgb(153, 147, 147);
+    font-family: monospace;
+    padding: 20px;
+    
+}
+.box span {
+    font-size: 40px;
+}
+.box h4 {
+    font-size: 20px;
+}
+
+@media (min-width:320px) and (max-width: 425px) {
+    .img
+    .about1 {
+        margin-top: 70px;
+        background-image: url("img/Iceland/IMG_7994.JPG");
+        background-size: cover;
+        height: 300px;
+        text-align: center;
+    }
+    .about1 {
+        background-image: url("img/Iceland/IMG_7994.JPG");
+        background-size: cover;
+        margin: auto;
+    }
+    .about1 article {
+        font-size: 15px;
+        opacity: 0.4;
+        line-height: 190%;
+        margin-top: 30px;
+        margin-right: auto;
+    }
+    .about1 article:hover {
+        opacity: 0.9;
+    }
+    .pagetitle {   
+        height: 50px;
+        width: 100%;
+    }
+    .title {
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: none;
+    }
+    .intro {
+        margin-top: 80px;
+        background: rgb(211, 211, 208);
+        margin: 100px 20px;
+    }
+    .intromy {
+        font-size: 15px;
+        font-family: fantasy;
+        margin-left: 0px;
+        margin-top: 30px;
+        line-height: 150%;
+    }
+    .introimg {
+        width: 100%;
+        height: 260px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-right: auto;
+    }
+    .ice {
+        margin-top: 50px;
+        margin: auto;
+    }
+    .bcn {
+        width: 100%;
+        height: 230px;
+        border-radius: 5%;
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    .uk {
+        width: 100%;
+        height: 230px;
+        border-radius: 5px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .theuk {
+        margin: auto;
+    }
+    .bc {
+        margin-top: 50px;
+    }
+    .intromy1 {
+        font-size: 15px;
+        font-family: fantasy;
+        margin-left: 0px;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        line-height: 150%;
+    }
+    .fav {
+        color: rgb(129, 129, 102);
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .summaries {
+        display: block;
+        margin: auto;
+    }
+    .summary {
+        margin: auto;
+        width: 80%;
+    }
+    .total {
+        font-size: 12px;
+    }
+    .box span {
+        font-size: 24px;
+    }
+    .box h4 {
+        font-size: 14px;
+    }
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+    background: rgb(30, 46, 53);
+    color: white;
+    height: 150px;
+    line-height: 150px;
+}
+@media (min-width:320px) and (max-width: 736px) {
+    footer {
+        height: 100px;
+        line-height: 100px;
+        margin-top: 150px;
+    }
+
+}
